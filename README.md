@@ -1,2 +1,2 @@
-# Next.js template
-Next.js template with Typescript
+# Next.js portfolio
+Portfolio for Koyo Miyamura by Next.js + tailwind.css
