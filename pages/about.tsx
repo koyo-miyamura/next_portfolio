@@ -1,8 +1,8 @@
 import Layout from '../components/Layout'
 
 const AboutPage = () => (
-  <Layout title="About | Next.js + TypeScript Example">
-    <h1>About</h1>
+  <Layout title="About">
+    <h1>Timeline書く予定</h1>
   </Layout>
 )
 
