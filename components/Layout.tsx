@@ -1,6 +1,8 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 type Props = {
   children?: ReactNode
@@ -17,12 +19,20 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     <header>
       <nav>
         <Link href="/">
-          <a>Home</a>
+          Home
         </Link>{' '}
         |{' '}
         <Link href="/about">
-          <a>About</a>
-        </Link>
+          About
+        </Link>{' '}
+        |{' '}
+        <a href="https://github.com/koyo-miyamura">
+        <FontAwesomeIcon icon={faGithub} />
+        </a>{' '}
+        |{' '}
+        <a href="https://twitter.com/koyomiyamura">
+        <FontAwesomeIcon icon={faTwitter} />
+        </a>
       </nav>
     </header>
     <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
