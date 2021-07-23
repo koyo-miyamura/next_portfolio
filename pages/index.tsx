@@ -1,15 +1,10 @@
 import React, { useEffect } from 'react'
 import Layout from '../components/Layout'
 import { useRecoilLoading } from '../store/loading'
+import { timer } from '../lib/utils'
 
 const IndexPage = () => {
   const [isLoaded, setIsLoaded] = useRecoilLoading()
-
-  const timer = (ms: number) => {
-    return new Promise((resolve) => {
-      setTimeout(resolve, ms)
-    })
-  }
 
   useEffect(() => {
     const f = async () => {
@@ -19,8 +14,14 @@ const IndexPage = () => {
     f()
   }, [])
 
+  const Loading = () => (
+    <div className="w-full h-screen flex justify-center items-center bg-white z-50">
+      <img className="animate__animated animate__fadeInDown" src="/images/momizi_icon.png" alt="アイコン" />
+    </div>
+  )
+
   if (!isLoaded) {
-    return <>Loading...</>
+    return <Loading />
   }
 
   return (
