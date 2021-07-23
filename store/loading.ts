@@ -4,7 +4,7 @@ type LoadingState = {
   isLoaded: boolean
 }
 
-export const loadingStore = atom<LoadingState>({
+const loadingStore = atom<LoadingState>({
   key: 'loadingStore',
   default: {
     isLoaded: false,
