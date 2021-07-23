@@ -10,13 +10,13 @@ type Props = {
 }
 
 const Layout = ({ children, title = 'This is the default title' }: Props) => (
-  <div className="flex flex-col items-center justify-center min-h-screen py-2">
+  <div className="flex flex-col items-center justify-center min-h-screen">
     <Head>
       <title>{title} | Koyo Miyamura</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <header>
+    <header className="mt-2 mb-6">
       <nav>
         <Link href="/">
           Home
@@ -35,7 +35,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
         </a>
       </nav>
     </header>
-    <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
+    <main className="flex flex-col items-center w-full flex-1 text-center">
     {children}
     </main>
     <footer className="flex items-center justify-center w-full h-24 border-t text-sm">
