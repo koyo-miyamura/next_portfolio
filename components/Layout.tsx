@@ -11,9 +11,9 @@ type Props = {
 
 const Layout = ({ children, title = 'Portfolio' }: Props) => (
   <Loading>
+    <MyMeta title={title} />
+    <Header />
     <div className="flex flex-col items-center justify-center min-h-screen">
-      <MyMeta title={title} />
-      <Header />
       <main className="flex flex-col items-center w-full flex-1 text-center">{children}</main>
       <Footer />
     </div>
