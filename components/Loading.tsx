@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import { useRecoilLoading } from '../store/loading'
-import { timer } from '../lib/utils'
+import { useRecoilLoading } from 'store/loading'
+import { timer } from 'lib/utils'
 
 type Props = {
   children: React.ReactNode
