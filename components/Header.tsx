@@ -9,13 +9,13 @@ const Header = () => {
       <nav className="flex items-center justify-end flex-wrap max-w-screen-lg m-auto py-2 lg:p-6 overflow-x-scroll whitespace-nowrap">
         <div className="w-full lg:flex lg:items-center lg:w-auto">
           <Link href="/">
-            <a className="inline-block text-gray-700 font-medium px-6 py-2 leading-none hover:opacity-50 lg:mt-0">
+            <a className="inline-block text-gray-700 font-medium px-6 py-2 leading-none my-hover-border lg:mt-0">
               Home
             </a>
           </Link>
           |
           <Link href="/about">
-            <a className="inline-block text-gray-700 font-medium px-6 py-2 leading-none hover:opacity-50 lg:mt-0">
+            <a className="inline-block text-gray-700 font-medium px-6 py-2 leading-none my-hover-border lg:mt-0">
               About
             </a>
           </Link>

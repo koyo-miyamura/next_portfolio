@@ -6,5 +6,26 @@
 
 html,
 body {
-  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic,
+    "Yu Gothic", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+}
+
+.my-hover-border {
+  @apply relative;
+  @apply inline-block;
+
+  &::after {
+    @apply absolute;
+    @apply bottom-0;
+    @apply left-0;
+    content: "";
+    @apply w-full;
+    @apply h-0.5;
+    @apply bg-momizi;
+    transform: scale(0, 1);
+    transition: transform 0.3s;
+  }
+  &:hover::after {
+    transform: scale(0.8, 1);
+  }
 }
