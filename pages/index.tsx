@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from 'components/Layout'
+import Timeline from 'components/Timeline'
 
 const IndexPage = () => {
   return (
@@ -11,6 +12,8 @@ const IndexPage = () => {
           alt="ポートフォリオ"
         />
       </div>
+      <h1 className="text-4xl font-medium p-2">Experience</h1>
+      <Timeline />
     </Layout>
   )
 }
