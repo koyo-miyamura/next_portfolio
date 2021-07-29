@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useRecoilLoading } from 'store/loading'
 import { timer } from 'lib/utils'
+import MomiziIcon from 'public/images/momizi_icon.png'
 
 type Props = {
   children: React.ReactNode
@@ -20,7 +21,7 @@ const Loading = ({ children }: Props) => {
   if (!isLoaded) {
     return (
       <div className="w-full h-screen flex justify-center items-center bg-white z-50">
-        <img className="animate__animated animate__fadeInDown" src="/images/momizi_icon.png" alt="アイコン" />
+        <img className="animate__animated animate__fadeInDown" src={MomiziIcon.src} alt="アイコン" />
       </div>
     )
   }
