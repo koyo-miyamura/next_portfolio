@@ -15,7 +15,7 @@ const Layout = ({ children, title = 'Portfolio' }: Props) => (
     <div className="flex flex-col min-h-screen">
       <Header />
       <div className="items-center justify-center flex-1">
-        <main className="flex flex-col items-center w-full text-center">{children}</main>
+        <main className="flex flex-col items-center w-full">{children}</main>
       </div>
       <Footer />
     </div>

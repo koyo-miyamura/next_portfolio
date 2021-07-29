@@ -7,10 +7,11 @@ module.exports = {
     extend: {
       colors: {
         sky: colors.sky,
-        momizi: "#972238",
+        momizi: "#cb566c",
       },
       height: {
-        'top-image': "25vh",
+        'top-image': "35vh",
+        'top-image-sp': "20vh"
       }
     },
   },
