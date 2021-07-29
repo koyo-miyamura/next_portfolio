@@ -17,7 +17,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      animation: ['responsive', 'hover', 'focus'],
+      animation: ['responsive', 'hover'],
     },
   },
   plugins: [],
