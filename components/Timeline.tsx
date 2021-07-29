@@ -19,7 +19,7 @@ const Timeline = () => {
             <div className="h-full w-6 flex items-center justify-center">
               <div className="h-full w-1 bg-sky-800 pointer-events-none" />
             </div>
-            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-sky-500 shadow" />
+            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-sky-500 shadow hover:animate-ping" />
           </div>
         </div>
         {/* <!-- right --> */}
@@ -28,7 +28,7 @@ const Timeline = () => {
             <div className="h-full w-6 flex items-center justify-center">
               <div className="h-full w-1 bg-sky-800 pointer-events-none" />
             </div>
-            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-sky-500 shadow" />
+            <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-sky-500 shadow hover:animate-ping" />
           </div>
           <div className="col-start-6 col-end-10 p-4 my-4 shadow-md border-t-4 border-momizi">
             <span className="font-semibold text-xs text-momizi mb-1">2000 - 2010</span>
