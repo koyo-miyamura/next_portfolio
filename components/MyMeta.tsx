@@ -20,8 +20,22 @@ const MyMeta = ({ title }: Props) => {
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
 
+      <meta property="og:url" content="https://koyo-miyamura.vercel.app/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Portfolio | Koyo Miyamura" />
+      <meta property="og:site_name" content="Portfolio | Koyo Miyamura" />
+      <meta property="og:description" content="Koyo Miyamura のポートフォリオ" />
+      <meta property="og:image" content="https://koyo-miyamura.vercel.app/images/momizi_icon.png" />
+      <meta property="og:locale" content="ja_JP" />
+      <meta property="twitter:card" content="ポートフォリオ" />
+      <meta property="twitter:title" content="Portfolio | Koyo Miyamura" />
+      <meta property="twitter:description" content="Koyo Miyamura のポートフォリオ" />
+      <meta property="twitter:image" content="https://koyo-miyamura.vercel.app/images/momizi_icon.png" />
+      <link rel="canonical" href="https://koyo-miyamura.vercel.app/" />
+
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
       <link rel="preload" href="/images/portfolio_top.png" as="image" />
     </Head>
   )
