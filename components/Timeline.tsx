@@ -16,7 +16,7 @@ export const Timeline = ({ timelineContents }: TimelineProps) => {
   )
   const Title = ({ title }: { title: string }) => <h3 className="font-semibold text-2xl mb-1">{title}</h3>
   const Content = ({ content }: { content: JSX.Element }) => (
-    <p className="mt-3 leading-tight text-sm text-gray-500">{content}</p>
+    <p className="mt-3 leading-6 text-sm text-gray-500">{content}</p>
   )
 
   const LineCircle = () => (
