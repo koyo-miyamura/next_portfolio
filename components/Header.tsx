@@ -13,7 +13,7 @@ const Header = () => {
   )
   return (
     <header>
-      <nav className="flex items-center justify-end flex-wrap max-w-screen-lg m-auto py-2 lg:p-6 overflow-x-scroll whitespace-nowrap">
+      <nav className="flex items-center justify-end flex-wrap max-w-screen-lg m-auto py-2 lg:p-6 overflow-x-scroll md:overflow-x-visible whitespace-nowrap">
         <div className="w-full lg:flex lg:items-center lg:w-auto">
           <HeaderLink linkName="Home" href="/" />|
           <HeaderLink linkName="About" href="/about" />|
