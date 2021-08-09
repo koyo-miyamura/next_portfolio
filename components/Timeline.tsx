@@ -1,19 +1,23 @@
 import React from 'react'
 
-type Props = {
-  timelines: {
-    period: string
-    title: string
-    content: JSX.Element
-  }[]
+export type TimelineContent = {
+  period: string
+  title: string
+  content: JSX.Element
 }
 
-const Timeline = ({ timelines }: Props) => {
+type TimelineProps = {
+  timelineContents: TimelineContent[]
+}
+
+export const Timeline = ({ timelineContents }: TimelineProps) => {
   const Period = ({ period }: { period: string }) => (
     <span className="font-semibold text-xs text-momizi mb-1">{period}</span>
   )
-  const Title = ({ title }: { title: string }) => <h3 className="font-semibold text-lg mb-1">{title}</h3>
-  const Content = ({ content }: { content: JSX.Element }) => <p className="leading-tight">{content}</p>
+  const Title = ({ title }: { title: string }) => <h3 className="font-semibold text-2xl mb-1">{title}</h3>
+  const Content = ({ content }: { content: JSX.Element }) => (
+    <p className="mt-3 leading-tight text-sm text-gray-500">{content}</p>
+  )
 
   const LineCircle = () => (
     <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
@@ -24,42 +28,38 @@ const Timeline = ({ timelines }: Props) => {
     </div>
   )
 
-  const LeftCard = () => (
+  const LeftCard = ({ period, title, content }: TimelineContent) => (
     <div className="flex flex-row-reverse md:contents">
       <div className="col-start-1 col-end-5 p-4 my-4 shadow-md border-t-4 border-momizi">
-        <Period period="2000-2010" />
-        <Title title="title" />
-        <Content content={<>今日もいい天気</>} />
+        <Period period={period} />
+        <Title title={title} />
+        <Content content={content} />
       </div>
       <LineCircle />
     </div>
   )
 
-  const RightCard = () => (
+  const RightCard = ({ period, title, content }: TimelineContent) => (
     <div className="flex md:contents">
       <LineCircle />
       <div className="col-start-6 col-end-10 p-4 my-4 shadow-md border-t-4 border-momizi">
-        <Period period="2000-2010" />
-        <Title title="title" />
-        <Content content={<>今日もいい天気</>} />
+        <Period period={period} />
+        <Title title={title} />
+        <Content content={content} />
       </div>
     </div>
   )
+
   return (
     <div className="container">
-      <div className="flex flex-col md:grid md:grid-cols-9 p-2">
-        {timelines.map(({ period, title, content }, i) => {
-          console.log(period, title, content)
+      <div className="flex flex-col items-start md:items-stretch md:grid md:grid-cols-9 p-2">
+        {timelineContents.map(({ period, title, content }, i) => {
           if (i % 2 === 0) {
-            return <LeftCard />
+            return <LeftCard key={String(i)} period={period} title={title} content={content} />
           }
-          return <RightCard />
+          return <RightCard key={String(i)} period={period} title={title} content={content} />
         })}
-        <LeftCard />
-        <RightCard />
       </div>
     </div>
   )
 }
-
-export default Timeline
