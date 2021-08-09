@@ -25,12 +25,12 @@ const MyMeta = ({ title }: Props) => {
       <meta property="og:title" content="Portfolio | Koyo Miyamura" />
       <meta property="og:site_name" content="Portfolio | Koyo Miyamura" />
       <meta property="og:description" content="Koyo Miyamura のポートフォリオ" />
-      <meta property="og:image" content="https://koyo-miyamura.vercel.app/images/momizi_icon.png" />
+      <meta property="og:image" content="https://koyo-miyamura.vercel.app/images/momizi_icon_512_512.png" />
       <meta property="og:locale" content="ja_JP" />
-      <meta property="twitter:card" content="ポートフォリオ" />
+      <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:title" content="Portfolio | Koyo Miyamura" />
       <meta property="twitter:description" content="Koyo Miyamura のポートフォリオ" />
-      <meta property="twitter:image" content="https://koyo-miyamura.vercel.app/images/momizi_icon.png" />
+      <meta property="twitter:image" content="https://koyo-miyamura.vercel.app/images/momizi_icon_512_512.png" />
       <link rel="canonical" href="https://koyo-miyamura.vercel.app/" />
 
       <meta charSet="utf-8" />
