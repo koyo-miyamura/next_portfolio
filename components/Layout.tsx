@@ -10,16 +10,18 @@ type Props = {
 }
 
 const Layout = ({ children, title = 'Portfolio' }: Props) => (
-  <Loading>
+  <>
     <MyMeta title={title} />
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <div className="items-center justify-center flex-1">
-        <main className="flex flex-col items-center w-full">{children}</main>
+    <Loading>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <div className="items-center justify-center flex-1">
+          <main className="flex flex-col items-center w-full">{children}</main>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-  </Loading>
+    </Loading>
+  </>
 )
 
 export default Layout
