@@ -19,7 +19,7 @@ const IndexPage = () => {
   const TimelineLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
     <a href={href} className="border-b border-blue-300">
       {children}
-      <FontAwesomeIcon icon={faExternalLinkAlt} className="w-1 mx-2" />
+      <FontAwesomeIcon icon={faExternalLinkAlt} className="mx-2" />
     </a>
   )
 
