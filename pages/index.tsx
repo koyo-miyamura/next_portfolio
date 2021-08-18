@@ -130,9 +130,9 @@ const IndexPage = () => {
       title: 'マネーフォワード',
       content: (
         <>
-          福岡事業部 サーバサイドエンジニア
+          福岡事業部 サーバサイドエンジニア。
           <br />
-          Ruby on Rails を用いたToB向けSaaS開発
+          Ruby on Rails を用いたToB向けSaaS開発。
           <br />
         </>
       ),
