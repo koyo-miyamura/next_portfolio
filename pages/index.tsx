@@ -142,8 +142,10 @@ const IndexPage = () => {
   return (
     <Layout title="Home">
       <IndexTopImage />
-      <h1 className="text-4xl font-medium p-2 mb-8">Experience</h1>
-      <Timeline timelineContents={timelines} />
+      <div className="px-0 md:px-5">
+        <h1 className="text-4xl font-medium text-center p-2 mb-8">Experience</h1>
+        <Timeline timelineContents={timelines} />
+      </div>
     </Layout>
   )
 }
