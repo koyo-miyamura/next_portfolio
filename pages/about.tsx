@@ -22,13 +22,13 @@ const AboutPage = () => {
           </div>
           <div className="flex justify-evenly my-5">
             <a
-              href=""
+              href="https://twitter.com/koyomiyamura"
               className="bg font-bold text-sm text-blue-400 w-full text-center py-3 hover:bg-blue-400 hover:text-white hover:shadow-lg"
             >
               Twitter
             </a>
             <a
-              href=""
+              href="https://github.com/koyo-miyamura"
               className="bg font-bold text-sm text-gray-600 w-full text-center py-3 hover:bg-gray-600 hover:text-white hover:shadow-lg"
             >
               GitHub
