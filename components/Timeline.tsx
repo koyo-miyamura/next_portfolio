@@ -15,9 +15,7 @@ export const Timeline = ({ timelineContents }: TimelineProps) => {
     <span className="font-semibold text-xs text-momizi mb-1">{period}</span>
   )
   const Title = ({ title }: { title: string }) => <h3 className="font-semibold text-2xl mb-1">{title}</h3>
-  const Content = ({ content }: { content: JSX.Element }) => (
-    <p className="mt-3 leading-6 text-sm text-gray-500">{content}</p>
-  )
+  const Content = ({ content }: { content: JSX.Element }) => <p className="mt-3 text-sm text-gray-500">{content}</p>
 
   const LineCircle = () => (
     <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
