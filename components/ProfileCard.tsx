@@ -18,12 +18,12 @@ const ProfileCard = ({ children }: Props) => {
         <div className="mt-8">
           <h1 className="font-bold text-center text-3xl text-gray-900">Koyo Miyamura</h1>
           <p className="text-center text-sm text-gray-400 font-medium">Engineer</p>
-          <div className="my-5">
+          <div className="mt-5">
             <p className="text-sky-100 block text-center font-medium leading-6 px-6 py-3 bg-sky-600">
               Contact with <span className="font-bold">@koyo-miyamura</span>
             </p>
           </div>
-          <div className="flex justify-evenly mt-5">
+          <div className="flex justify-evenly">
             <a
               href="https://twitter.com/koyomiyamura"
               className="bg font-bold text-blue-400 w-full text-center py-3 hover:bg-blue-400 hover:text-white hover:shadow-lg"
