@@ -5,14 +5,14 @@ import MomiziIcon from 'public/images/momizi_icon_512_512.png'
 const AboutPage = () => {
   const ProfileCard = () => (
     <div className="container pt-24 pb-6">
-      <div className="bg-white relative shadow-xl w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 mx-auto">
+      <div className="bg-white shadow-xl w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 mx-auto">
         <div className="flex justify-center">
-          <div className="rounded-full absolute -top-20 w-36 h-36 shadow-2xl border-4 border-white">
+          <div className="rounded-full -mt-20 w-36 h-36 shadow-2xl border-4 border-white">
             <img src={MomiziIcon.src} alt="profile" className="p-2" />
           </div>
         </div>
 
-        <div className="mt-20">
+        <div className="mt-8">
           <h1 className="font-bold text-center text-3xl text-gray-900">Koyo Miyamura</h1>
           <p className="text-center text-sm text-gray-400 font-medium">Engineer</p>
           <div className="my-5">
