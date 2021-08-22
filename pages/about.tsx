@@ -20,7 +20,7 @@ const AboutPage = () => {
               Contact with <span className="font-bold">@koyo-miyamura</span>
             </p>
           </div>
-          <div className="flex justify-evenly my-5">
+          <div className="flex justify-evenly mt-5">
             <a
               href="https://twitter.com/koyomiyamura"
               className="bg font-bold text-sm text-blue-400 w-full text-center py-3 hover:bg-blue-400 hover:text-white hover:shadow-lg"
