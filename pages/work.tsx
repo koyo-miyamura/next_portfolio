@@ -3,6 +3,7 @@ import Layout from 'components/Layout'
 import WorkCard from 'components/WorkCard'
 import LifeGameImage from 'public/images/lifegame.png'
 import LGTMakerImage from 'public/images/lgtmaker.jpg'
+import ExFFTImage from 'public/images/exfft.png'
 
 const WorkPage = () => (
   <Layout title="Work">
@@ -35,6 +36,12 @@ const WorkPage = () => (
           title="LGTMaker"
           content="Reactを用いたLGTM画像生成"
           href="https://lgtmaker.netlify.app/"
+        />
+        <WorkCard
+          imageUrl={ExFFTImage.src}
+          title="ExFft"
+          content="Elixir製高速フーリエ変換OSS"
+          href="https://github.com/koyo-miyamura/ex_fft"
         />
       </div>
     </div>
