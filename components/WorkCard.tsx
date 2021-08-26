@@ -2,6 +2,7 @@ import React from 'react'
 import LifeGameImage from 'public/images/lifegame.png'
 import LGTMakerImage from 'public/images/lgtmaker.png'
 import ExFFTImage from 'public/images/exfft.png'
+import ShotrizeImage from 'public/images/shotrize.png'
 import AmazonUrlConverterImage from 'public/images/amazon_url_converter.png'
 
 export type Props = {
@@ -74,7 +75,7 @@ const hobbyCardData: Props[] = [
     href: 'https://github.com/koyo-miyamura/ex_fft',
   },
   {
-    imageUrl: AmazonUrlConverterImage.src,
+    imageUrl: ShotrizeImage.src,
     title: 'Shotrize',
     content: 'Elixir製OSSへのコントリビュート',
     href: 'https://github.com/piacerex/shotrize/tree/v1.0',
