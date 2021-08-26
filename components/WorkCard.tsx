@@ -1,14 +1,18 @@
 import React from 'react'
+import LifeGameImage from 'public/images/lifegame.png'
+import LGTMakerImage from 'public/images/lgtmaker.png'
+import ExFFTImage from 'public/images/exfft.png'
+import AmazonUrlConverterImage from 'public/images/amazon_url_converter.png'
 
-type Props = {
+export type Props = {
   title?: string
   content?: string
   imageUrl?: string
   href?: string
 }
 
-const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }: Props) => (
-  <div className="lg:m-4 lg:w-80 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-0 md:mx-8">
+export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }: Props) => (
+  <div className="lg:m-4 xl:w-80 lg:w-64 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-0 md:mx-8">
     <a href={href}>
       <img src={imageUrl} alt="" className="overflow-hidden" />
       <div className="p-4">
@@ -19,4 +23,63 @@ const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }: Props)
   </div>
 )
 
-export default WorkCard
+const CardContent = ({ cardData }: { cardData: Props[] }) => {
+  return (
+    <>
+      {cardData.map(({ title, imageUrl, content, href }, i) => (
+        <WorkCard key={String(i)} title={title} imageUrl={imageUrl} content={content} href={href} />
+      ))}
+    </>
+  )
+}
+
+const workCardData: Props[] = [
+  {
+    title: 'ぼくらの甲子園！ポケット',
+    imageUrl: 'https://www.kayac.com/uploads/project/main_image/1188/main.',
+    content: 'Perl5サーバサイド実装/運用/リーダー',
+    href: 'https://www.kayac.com/service/game/1188',
+  },
+  {
+    title: '進撃の巨人タクティクス',
+    imageUrl: 'https://www.kayac.com/uploads/project/main_image/1682/main.',
+    content: 'Goサーバサイド実装/運用',
+    href: 'https://www.kayac.com/service/game/1682',
+  },
+]
+
+const hobbyCardData: Props[] = [
+  {
+    imageUrl: LifeGameImage.src,
+    title: 'LifeGame',
+    content: 'React製ライフゲーム',
+    href: 'https://lifegames.netlify.app/',
+  },
+  {
+    imageUrl: LGTMakerImage.src,
+    title: 'LGTMaker',
+    content: 'React製LGTM画像生成',
+    href: 'https://lgtmaker.netlify.app/',
+  },
+  {
+    imageUrl: AmazonUrlConverterImage.src,
+    title: 'Amazon URL Converter',
+    content: 'Gatsby.js製AmazonのURL短縮',
+    href: 'https://github.com/koyo-miyamura/ex_fft',
+  },
+  {
+    imageUrl: ExFFTImage.src,
+    title: 'ExFft',
+    content: 'Elixir製高速フーリエ変換OSS',
+    href: 'https://github.com/koyo-miyamura/ex_fft',
+  },
+  {
+    imageUrl: AmazonUrlConverterImage.src,
+    title: 'Shotrize',
+    content: 'Elixir製OSSへのコントリビュート',
+    href: 'https://github.com/piacerex/shotrize/tree/v1.0',
+  },
+]
+
+export const WorkCardContent = () => <CardContent cardData={workCardData} />
+export const HobbyCardContent = () => <CardContent cardData={hobbyCardData} />
