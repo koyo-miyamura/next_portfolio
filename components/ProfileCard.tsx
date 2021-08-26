@@ -7,8 +7,8 @@ type Props = {
 
 const ProfileCard = ({ children }: Props) => {
   return (
-    <div className="container pt-24 pb-6">
-      <div className="bg-white shadow-xl w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 mx-auto">
+    <div className="container flex justify-center pt-24 pb-6">
+      <div className="bg-white shadow-xl w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6">
         <div className="flex justify-center">
           <div className="rounded-full -mt-20 w-36 h-36 shadow-2xl border-4 border-white">
             <img src={MomiziIcon.src} alt="profile" className="p-2" />
