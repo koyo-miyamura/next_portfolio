@@ -9,10 +9,6 @@ module.exports = {
         sky: colors.sky,
         momizi: "#cb566c",
       },
-      height: {
-        'top-image': "35vh",
-        'top-image-sp': "20vh"
-      }
     },
   },
   variants: {
