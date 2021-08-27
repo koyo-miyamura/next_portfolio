@@ -4,6 +4,7 @@ import LGTMakerImage from 'public/images/lgtmaker.png'
 import ExFFTImage from 'public/images/exfft.png'
 import ShotrizeImage from 'public/images/shotrize.png'
 import AmazonUrlConverterImage from 'public/images/amazon_url_converter.png'
+import BrainSlotImage from 'public/images/brain_slot.png'
 
 export type Props = {
   title?: string
@@ -67,6 +68,12 @@ const hobbyCardData: Props[] = [
     title: 'Amazon URL Converter',
     content: 'Gatsby.js製AmazonのURL短縮',
     href: 'https://amazon-url-converter.netlify.app',
+  },
+  {
+    imageUrl: BrainSlotImage.src,
+    title: 'BrainSlot',
+    content: 'Vue製のブレインストーミングスロット',
+    href: 'https://github.com/piacerex/shotrize/tree/v1.0',
   },
   {
     imageUrl: ExFFTImage.src,
