@@ -66,7 +66,7 @@ const hobbyCardData: Props[] = [
     imageUrl: AmazonUrlConverterImage.src,
     title: 'Amazon URL Converter',
     content: 'Gatsby.js製AmazonのURL短縮',
-    href: 'https://github.com/koyo-miyamura/ex_fft',
+    href: 'https://amazon-url-converter.netlify.app',
   },
   {
     imageUrl: ExFFTImage.src,
