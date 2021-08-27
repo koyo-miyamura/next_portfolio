@@ -5,6 +5,8 @@ import ExFFTImage from 'public/images/exfft.png'
 import ShotrizeImage from 'public/images/shotrize.png'
 import AmazonUrlConverterImage from 'public/images/amazon_url_converter.png'
 import BrainSlotImage from 'public/images/brain_slot.png'
+import EpsonImage from 'public/images/epson.jpg'
+import QiitaSearchImage from 'public/images/qiita_search.png'
 
 export type Props = {
   title?: string
@@ -76,6 +78,12 @@ const hobbyCardData: Props[] = [
     href: 'https://github.com/piacerex/shotrize/tree/v1.0',
   },
   {
+    imageUrl: QiitaSearchImage.src,
+    title: 'QiitaSearch',
+    content: 'Vue製のQiita検索アプリ',
+    href: 'https://qiita-search.netlify.com',
+  },
+  {
     imageUrl: ExFFTImage.src,
     title: 'ExFft',
     content: 'Elixir製高速フーリエ変換OSS',
@@ -86,6 +94,12 @@ const hobbyCardData: Props[] = [
     title: 'Shotrize',
     content: 'Elixir製OSSへのコントリビュート',
     href: 'https://github.com/piacerex/shotrize/tree/v1.0',
+  },
+  {
+    imageUrl: EpsonImage.src,
+    title: 'Epson Hack Trek',
+    content: 'Elixirサーバでハッカソン受賞',
+    href: 'https://github.com/koyo-miyamura/epson_connectex',
   },
 ]
 
