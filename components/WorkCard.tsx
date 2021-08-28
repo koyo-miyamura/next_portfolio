@@ -16,7 +16,7 @@ export type Props = {
 }
 
 export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }: Props) => (
-  <div className="lg:m-4 xl:w-80 lg:w-64 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-0 md:mx-8">
+  <div className="my-8 mx-0 md:mx-8 xl:w-80 lg:w-64 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white">
     <a href={href}>
       <div className="relative pt-9/16 overflow-hidden">
         <img src={imageUrl} alt="" className="absolute top-0 left-0" />
@@ -29,7 +29,7 @@ export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }:
   </div>
 )
 
-const CardContent = ({ cardData }: { cardData: Props[] }) => {
+const CardSection = ({ cardData }: { cardData: Props[] }) => {
   return (
     <>
       {cardData.map(({ title, imageUrl, content, href }, i) => (
@@ -111,5 +111,5 @@ const hobbyCardData: Props[] = [
   },
 ]
 
-export const WorkCardContent = () => <CardContent cardData={workCardData} />
-export const HobbyCardContent = () => <CardContent cardData={hobbyCardData} />
+export const WorkCardSection = () => <CardSection cardData={workCardData} />
+export const HobbyCardSection = () => <CardSection cardData={hobbyCardData} />

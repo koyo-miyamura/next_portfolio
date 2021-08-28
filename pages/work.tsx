@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from 'components/Layout'
-import { WorkCardContent, HobbyCardContent } from 'components/WorkCard'
+import { WorkCardSection, HobbyCardSection } from 'components/WorkCard'
 
 const WorkPage = () => {
   const Title = ({ children }: { children: React.ReactNode }) => {
@@ -11,15 +11,19 @@ const WorkPage = () => {
     <Layout title="Work">
       <div className="container px-8">
         <div className="mb-16">
-          <Title>Work</Title>
+          <div className="pb-4">
+            <Title>Work</Title>
+          </div>
           <div className="lg:flex items-start container flex-wrap justify-evenly">
-            <WorkCardContent />
+            <WorkCardSection />
           </div>
         </div>
         <div className="mb-16">
-          <Title>Hobby</Title>
+          <div className="pb-4">
+            <Title>Hobby</Title>
+          </div>
           <div className="lg:flex items-start container flex-wrap justify-evenly">
-            <HobbyCardContent />
+            <HobbyCardSection />
           </div>
         </div>
       </div>
