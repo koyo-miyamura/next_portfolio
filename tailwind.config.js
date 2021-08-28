@@ -9,6 +9,9 @@ module.exports = {
         sky: colors.sky,
         momizi: "#cb566c",
       },
+      padding: {
+        "9/16": "56.25%",
+      }
     },
   },
   variants: {
