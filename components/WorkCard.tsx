@@ -16,7 +16,7 @@ export type Props = {
 }
 
 export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }: Props) => (
-  <div className="my-8 mx-0 md:mx-8 xl:w-80 lg:w-64 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white">
+  <div className="my-8 mx-0 lg:w-3/10 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white">
     <a href={href}>
       <div className="relative pt-9/16 overflow-hidden">
         <img src={imageUrl} alt="" className="absolute top-0 left-0" />
@@ -106,7 +106,7 @@ const hobbyCardData: Props[] = [
   {
     imageUrl: 'https://i1.sndcdn.com/artworks-pnEoIb1C8WPtHAcZ-FkLxIA-t500x500.jpg',
     title: '面白法人カヤック採用Podcast',
-    content: '面白法人カヤック採用Podcastに出演',
+    content: '新卒採用Podcast出演',
     href: 'https://soundcloud.com/user-913017633/8a-1',
   },
 ]
