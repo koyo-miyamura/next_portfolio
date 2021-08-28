@@ -103,6 +103,12 @@ const hobbyCardData: Props[] = [
     content: 'Elixirサーバでハッカソン受賞',
     href: 'https://github.com/koyo-miyamura/epson_connectex',
   },
+  {
+    imageUrl: 'https://i1.sndcdn.com/artworks-pnEoIb1C8WPtHAcZ-FkLxIA-t500x500.jpg',
+    title: '面白法人カヤック採用Podcast',
+    content: '面白法人カヤック採用Podcastに出演',
+    href: 'https://soundcloud.com/user-913017633/8a-1',
+  },
 ]
 
 export const WorkCardContent = () => <CardContent cardData={workCardData} />
