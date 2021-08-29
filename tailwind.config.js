@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         sky: colors.sky,
         momizi: "#cb566c",
+        "text-color": "#112734",
+        back: "#fffffe"
       },
       padding: {
         "9/16": "56.25%",

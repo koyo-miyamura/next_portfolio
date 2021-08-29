@@ -17,11 +17,11 @@ const ProfileCard = ({ children }: Props) => {
 
         <div className="mt-8">
           <h1 className="font-bold text-center text-4xl">Koyo Miyamura</h1>
-          <div className="mt-2">
-            <p className="text-center text-sm text-gray-400 font-medium">Engineer</p>
+          <div className="mt-1">
+            <p className="text-center text-gray-400 font-medium">Engineer</p>
           </div>
-          <div className="mt-4">
-            <p className="text-sky-100 block text-center font-medium leading-6 px-6 py-3 bg-sky-600">
+          <div className="mt-3">
+            <p className="text-sky-50 block text-center font-medium leading-6 px-6 py-3 bg-sky-600">
               Contact with <span className="font-bold">@koyo-miyamura</span>
             </p>
           </div>
@@ -46,7 +46,7 @@ const ProfileCard = ({ children }: Props) => {
             </a>
           </div>
 
-          <div className="w-full p-4 text-gray-800">
+          <div className="w-full p-4">
             <h3 className="font-bold text-left text-xl">Profile</h3>
             <div className="mt-2 w-full">
               <p className="text-sm">{children}</p>

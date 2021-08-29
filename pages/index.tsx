@@ -5,7 +5,7 @@ import TopImage from 'public/images/portfolio_top.png'
 
 const IndexPage = () => {
   const IndexTopImage = () => (
-    <div className="flex justify-center items-center w-full mb-8 bg-sky-200">
+    <div className="flex justify-center items-center w-full mb-8 bg-sky-300">
       <img
         className="animate__animated animate__fadeIn px-2 pt-2 w-full md:w-2/5 h-auto"
         src={TopImage.src}

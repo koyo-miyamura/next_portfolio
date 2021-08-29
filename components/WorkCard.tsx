@@ -22,8 +22,8 @@ export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }:
         <img src={imageUrl} alt="" className="absolute top-0 left-0" />
       </div>
       <div className="p-4">
-        <h3 className="font-medium text-gray-600 text-lg my-2">{title}</h3>
-        <p className="text-justify">{content}</p>
+        <h3 className="font-medium text-lg my-2">{title}</h3>
+        <p className="text-justify text-gray-500">{content}</p>
       </div>
     </a>
   </div>

@@ -4,7 +4,7 @@ import { WorkCardSection, HobbyCardSection } from 'components/WorkCard'
 
 const WorkPage = () => {
   const Title = ({ children }: { children: React.ReactNode }) => {
-    return <h1 className="text-4xl font-bold text-center">{children}</h1>
+    return <h1 className="text-5xl font-bold text-center">{children}</h1>
   }
 
   return (

@@ -20,7 +20,7 @@ const Loading = ({ children }: Props) => {
 
   if (!isLoaded) {
     return (
-      <div className="w-full h-screen flex justify-center items-center bg-white z-50">
+      <div className="w-full h-screen flex justify-center items-center bg-back z-50">
         <img className="animate__animated animate__fadeInDown" src={MomiziIcon.src} alt="icon" />
       </div>
     )
