@@ -14,7 +14,7 @@ const WorkPage = () => {
           <div className="pb-4">
             <Title>Work</Title>
           </div>
-          <div className="lg:flex items-start container flex-wrap justify-evenly">
+          <div className="md:flex items-start container flex-wrap justify-evenly">
             <WorkCardSection />
           </div>
         </div>
@@ -22,7 +22,7 @@ const WorkPage = () => {
           <div className="pb-4">
             <Title>Hobby</Title>
           </div>
-          <div className="lg:flex items-start container flex-wrap justify-evenly">
+          <div className="md:flex items-start container flex-wrap justify-evenly">
             <HobbyCardSection />
           </div>
         </div>

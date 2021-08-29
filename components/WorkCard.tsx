@@ -16,7 +16,7 @@ export type Props = {
 }
 
 export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }: Props) => (
-  <div className="my-8 mx-0 lg:w-3/10 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white">
+  <div className="my-8 mx-0 md:w-3/10 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white">
     <a href={href}>
       <div className="relative pt-9/16 overflow-hidden">
         <img src={imageUrl} alt="" className="absolute top-0 left-0" />
