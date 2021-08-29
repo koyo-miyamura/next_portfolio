@@ -18,7 +18,7 @@ const IndexPage = () => {
     <Layout title="Home">
       <IndexTopImage />
       <div className="px-0 md:px-5">
-        <h1 className="text-4xl font-bold text-center p-2 mb-8">Experience</h1>
+        <h1 className="text-5xl font-bold text-center p-2 mb-8">Experience</h1>
         <Timeline timelineContents={timelineContents} />
       </div>
     </Layout>

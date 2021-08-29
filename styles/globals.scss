@@ -1,6 +1,7 @@
 @import '~nprogress/nprogress.css';
 @import '~animate.css/animate.min.css';
 @import '~@fortawesome/fontawesome-svg-core/styles';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +9,7 @@
 
 html,
 body {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic,
+  font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic,
     "Yu Gothic", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
   caret-color: transparent;
 }
