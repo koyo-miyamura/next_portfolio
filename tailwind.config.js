@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         sky: colors.sky,
+        "top-image": "#4cb2e1b5",
         momizi: "#cb566c",
         "text-color": "#112734",
         back: "#fffffe"
