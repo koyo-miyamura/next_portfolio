@@ -13,7 +13,7 @@ const Layout = ({ children, title = 'Portfolio' }: Props) => (
   <>
     <MyMeta title={title} />
     <Loading>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen bg-gray-50">
         <Header />
         <div className="items-center justify-center flex-1">
           <main className="flex flex-col items-center w-full">{children}</main>
