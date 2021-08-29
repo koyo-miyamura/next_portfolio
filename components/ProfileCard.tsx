@@ -16,7 +16,7 @@ const ProfileCard = ({ children }: Props) => {
         </div>
 
         <div className="mt-8">
-          <h1 className="font-bold text-center text-4xl text-gray-900">Koyo Miyamura</h1>
+          <h1 className="font-bold text-center text-4xl">Koyo Miyamura</h1>
           <div className="mt-2">
             <p className="text-center text-sm text-gray-400 font-medium">Engineer</p>
           </div>
