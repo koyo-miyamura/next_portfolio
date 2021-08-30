@@ -11,11 +11,11 @@ const Loading = ({ children }: Props) => {
   const [isLoaded, setIsLoaded] = useRecoilLoading()
 
   useEffect(() => {
-    const f = async () => {
+    const lazySetIsLoaded = async () => {
       await timer(2000)
       setIsLoaded(true)
     }
-    f()
+    lazySetIsLoaded()
   }, [])
 
   if (!isLoaded) {
