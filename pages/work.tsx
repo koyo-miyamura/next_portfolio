@@ -11,7 +11,7 @@ const WorkPage = () => {
     <Layout title="Work">
       <div className="container px-8">
         <div className="mb-16">
-          <div className="pb-4">
+          <div className="pt-4 md:pt-0 pb-4">
             <Title>Work</Title>
           </div>
           <div className="md:flex items-start container flex-wrap justify-evenly">
