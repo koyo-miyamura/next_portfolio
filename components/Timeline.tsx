@@ -139,7 +139,7 @@ export const timelineContents: TimelineContent[] = [
     content: (
       <>
         Goを用いて
-        <TimelineLink href="https://www.kTimelineLinkyac.com/service/game/1682">進撃の巨人タクティクス</TimelineLink>
+        <TimelineLink href="https://www.kayac.com/service/game/1682">進撃の巨人タクティクス</TimelineLink>
         のサーバサイドを担当。
         <br />
         クリーンアーキテクチャをベースとし、MySQLのレプリケーションに加えてシャーディングまで行われているアプリケーションにおいて、クエリ効率を意識しつつ高負荷環境でも動作するアプリケーションにキャッチアップしつつ新規機能の開発を行った。
