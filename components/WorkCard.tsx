@@ -77,7 +77,7 @@ const hobbyCardData: Props[] = [
     imageUrl: BrainSlotImage.src,
     title: 'BrainSlot',
     content: 'Vue製のブレインストーミングスロット',
-    href: 'https://github.com/piacerex/shotrize/tree/v1.0',
+    href: 'https://brain-slot.netlify.com',
   },
   {
     imageUrl: QiitaSearchImage.src,
