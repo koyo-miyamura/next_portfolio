@@ -20,14 +20,14 @@ const Header = () => {
           <HeaderLink linkName="Work" href="/work" />|
           <a
             href="https://github.com/koyo-miyamura"
-            className="inline-block text-gray-700 font-medium text-xl px-6 py-2 leading-none transform hover:scale-125 hover:text-momizi lg:mt-0"
+            className="inline-block text-gray-700 font-medium text-xl px-6 py-2 leading-none transform my-hover-border hover:scale-125 hover:text-momizi lg:mt-0"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
           |
           <a
             href="https://twitter.com/koyomiyamura"
-            className="inline-block text-gray-700 font-medium text-xl px-6 py-2 leading-none transform hover:scale-125 hover:text-momizi lg:mt-0"
+            className="inline-block text-gray-700 font-medium text-xl px-6 py-2 leading-none transform my-hover-border hover:scale-125 hover:text-momizi lg:mt-0"
           >
             <FontAwesomeIcon icon={faTwitter} />
           </a>
