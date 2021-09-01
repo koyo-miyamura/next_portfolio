@@ -6,7 +6,7 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 const Header = () => {
   const HeaderLink = ({ linkName, href }: { linkName: string; href: string }) => (
     <Link href={href}>
-      <a className="inline-block text-gray-700 font-medium px-6 py-2 leading-none my-hover-border lg:mt-0">
+      <a className="inline-block text-gray-700 font-medium px-6 py-2 leading-none my-hover-border hover:text-momizi lg:mt-0">
         {linkName}
       </a>
     </Link>
