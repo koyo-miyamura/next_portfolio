@@ -173,12 +173,14 @@ export const timelineContents: TimelineContent[] = [
   },
   {
     period: '2021/09 - ',
-    title: 'マネーフォワード',
+    title: 'マネーフォワード「MFクラウド」',
     content: (
       <>
-        福岡事業部 サーバサイドエンジニア。
+        Ruby on Rails を用いて、 ToB 向け SaaS である
+        <TimelineLink href="https://biz.moneyforward.com/">マネーフォワードクラウドシリーズ</TimelineLink>
+        の開発を行う。
         <br />
-        Ruby on Rails を用いたToB向けSaaS開発。
+        福岡事業部 サーバサイドエンジニアとして、長く開発されているシステムの問い合わせ対応・運用・改善などを行う。
         <br />
       </>
     ),

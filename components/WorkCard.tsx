@@ -19,7 +19,7 @@ export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }:
   <div className="my-8 mx-0 md:w-3/10 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white">
     <a href={href}>
       <div className="relative pt-9/16 overflow-hidden">
-        <img src={imageUrl} alt="" className="absolute top-0 left-0" />
+        <img src={imageUrl} alt="key visual" className="absolute top-0 left-0" />
       </div>
       <div className="p-4">
         <h3 className="font-medium text-lg my-2">{title}</h3>
@@ -40,6 +40,12 @@ const CardSection = ({ cardData }: { cardData: Props[] }) => {
 }
 
 const workCardData: Props[] = [
+  {
+    title: 'マネーフォワードクラウド',
+    imageUrl: 'https://biz.moneyforward.com/portal/images/ogp/common/img_moneyforward_cloud.png',
+    content: 'Railsサーバサイド実装/運用',
+    href: 'https://biz.moneyforward.com/',
+  },
   {
     title: 'ぼくらの甲子園！ポケット',
     imageUrl: 'https://www.kayac.com/uploads/project/main_image/1188/main.',
