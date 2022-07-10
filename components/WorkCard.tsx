@@ -20,8 +20,8 @@ export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }:
     <a href={href}>
       <img src={imageUrl} alt="key visual" className="overflow-hidden w-full md:h-32 lg:h-64 object-cover object-top" />
       <div className="p-4">
-        <h3 className="font-medium text-lg my-2">{title}</h3>
-        <p className="text-justify text-gray-500">{content}</p>
+        <h3 className="md:text-base lg:text-lg font-medium my-2">{title}</h3>
+        <p className="md:text-sm lg:text-base text-justify text-gray-500">{content}</p>
       </div>
     </a>
   </div>
