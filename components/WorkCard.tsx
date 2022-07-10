@@ -18,9 +18,7 @@ export type Props = {
 export const WorkCard = ({ title = '', content = '', imageUrl = '', href = '' }: Props) => (
   <div className="my-8 mx-0 md:w-3/10 shadow-md hover:sdow-lg hover:bg-gray-100 rounded-lg bg-white">
     <a href={href}>
-      <div className="relative pt-9/16 overflow-hidden">
-        <img src={imageUrl} alt="key visual" className="absolute top-0 left-0" />
-      </div>
+      <img src={imageUrl} alt="key visual" className="overflow-hidden w-full md:h-32 lg:h-64 object-cover object-top" />
       <div className="p-4">
         <h3 className="font-medium text-lg my-2">{title}</h3>
         <p className="text-justify text-gray-500">{content}</p>
@@ -43,19 +41,19 @@ const workCardData: Props[] = [
   {
     title: 'マネーフォワードクラウド',
     imageUrl: 'https://biz.moneyforward.com/portal/images/ogp/common/img_moneyforward_cloud.png',
-    content: 'Railsサーバサイド実装/運用',
+    content: 'Railsサーバ実装/運用',
     href: 'https://biz.moneyforward.com/',
   },
   {
     title: 'ぼくらの甲子園！ポケット',
     imageUrl: 'https://www.kayac.com/uploads/project/main_image/1188/main.',
-    content: 'Perl5サーバサイド実装/運用/リーダー',
+    content: 'Perl5サーバ/運用/リーダ',
     href: 'https://www.kayac.com/service/game/1188',
   },
   {
     title: '進撃の巨人タクティクス',
     imageUrl: 'https://www.kayac.com/uploads/project/main_image/1682/main.',
-    content: 'Goサーバサイド実装/運用',
+    content: 'Goサーバ実装/運用',
     href: 'https://www.kayac.com/service/game/1682',
   },
 ]
@@ -76,25 +74,25 @@ const hobbyCardData: Props[] = [
   {
     imageUrl: AmazonUrlConverterImage.src,
     title: 'Amazon URL Converter',
-    content: 'Gatsby.js製AmazonのURL短縮',
+    content: 'Gatsby製AmazonのURL短縮',
     href: 'https://amazon-url-converter.netlify.app',
   },
   {
     imageUrl: BrainSlotImage.src,
     title: 'BrainSlot',
-    content: 'Vue製のブレインストーミングスロット',
+    content: 'Vue製ブレストスロット',
     href: 'https://brain-slot.netlify.com',
   },
   {
     imageUrl: QiitaSearchImage.src,
     title: 'QiitaSearch',
-    content: 'Vue製のQiita検索アプリ',
+    content: 'Vue製Qiita検索アプリ',
     href: 'https://qiita-search.netlify.com',
   },
   {
     imageUrl: ExFFTImage.src,
     title: 'ExFft',
-    content: 'Elixir製高速フーリエ変換OSS',
+    content: 'Elixir高速フーリエ変換',
     href: 'https://github.com/koyo-miyamura/ex_fft',
   },
   {
