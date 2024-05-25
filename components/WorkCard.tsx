@@ -46,7 +46,7 @@ const workCardData: Props[] = [
   },
   {
     title: 'ぼくらの甲子園！ポケット',
-    imageUrl: 'https://www.kayac.com/uploads/project/main_image/1188/main.',
+    imageUrl: 'https://www.kayac.com/uploads/project/main_image/1188/d2e90e04-3865-4557-b184-580793a4c976.',
     content: 'Perl5サーバ/運用/リーダ',
     href: 'https://www.kayac.com/service/game/1188',
   },
@@ -55,6 +55,24 @@ const workCardData: Props[] = [
     imageUrl: 'https://www.kayac.com/uploads/project/main_image/1682/main.',
     content: 'Goサーバ実装/運用',
     href: 'https://www.kayac.com/service/game/1682',
+  },
+  {
+    title: 'Elixir業務システム開発',
+    imageUrl: 'images/default.png',
+    content: 'Phoenix LiveView フルスタック(副業)',
+    href: 'https://elixir-lang.org/',
+  },
+  {
+    title: 'React Native 業務システム開発',
+    imageUrl: 'images/default.png',
+    content: 'React Native スマホアプリ(副業)',
+    href: 'https://koyo-miyamura.vercel.app/',
+  },
+  {
+    title: 'Bright',
+    imageUrl: 'https://bright-fun.org/wp-content/uploads/2023/10/ogp_a-1.png',
+    content: 'Phoenix LiveView フルスタック(副業)',
+    href: 'https://bright-fun.org/',
   },
 ]
 
