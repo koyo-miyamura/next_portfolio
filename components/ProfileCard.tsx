@@ -1,5 +1,5 @@
 import React from 'react'
-import MomiziIcon from 'public/images/momizi_icon_512_512.png'
+import MomiziIcon from '@/public/images/momizi_icon_512_512.png'
 
 type Props = {
   children: React.ReactNode

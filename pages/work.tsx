@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from 'components/Layout'
-import { WorkCardSection, HobbyCardSection } from 'components/WorkCard'
+import Layout from '@/components/Layout'
+import { WorkCardSection, HobbyCardSection } from '@/components/WorkCard'
 
 const WorkPage = () => {
   const Title = ({ children }: { children: React.ReactNode }) => {

@@ -1,8 +1,8 @@
 import React from 'react'
-import MyMeta from 'components/MyMeta'
-import Header from 'components/Header'
-import Loading from 'components/Loading'
-import Footer from 'components/Footer'
+import Header from '@/components/Header'
+import Loading from '@/components/Loading'
+import Footer from '@/components/Footer'
+import MyMeta from '@/components/MyMeta'
 
 type Props = {
   children?: React.ReactNode

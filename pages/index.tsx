@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from 'components/Layout'
-import { Timeline, timelineContents } from 'components/Timeline'
-import TopImage from 'public/images/portfolio_top.png'
+import Layout from '@/components/Layout'
+import { Timeline, timelineContents } from '@/components/Timeline'
+import TopImage from '@/public/images/portfolio_top.png'
 
 const IndexPage = () => {
   const IndexTopImage = () => (

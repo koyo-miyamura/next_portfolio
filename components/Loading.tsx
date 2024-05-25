@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import { useRecoilLoading } from 'store/loading'
-import { timer } from 'lib/utils'
-import MomiziIcon from 'public/images/momizi_icon.png'
+import { useRecoilLoading } from '@/store/loading'
+import { timer } from '@/lib/utils'
+import MomiziIcon from '@/public/images/momizi_icon.png'
 
 type Props = {
   children: React.ReactNode

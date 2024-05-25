@@ -1,12 +1,12 @@
 import React from 'react'
-import LifeGameImage from 'public/images/lifegame.png'
-import LGTMakerImage from 'public/images/lgtmaker.png'
-import ExFFTImage from 'public/images/exfft.png'
-import ShotrizeImage from 'public/images/shotrize.png'
-import AmazonUrlConverterImage from 'public/images/amazon_url_converter.png'
-import BrainSlotImage from 'public/images/brain_slot.png'
-import EpsonImage from 'public/images/epson.jpg'
-import QiitaSearchImage from 'public/images/qiita_search.png'
+import LifeGameImage from '@/public/images/lifegame.png'
+import LGTMakerImage from '@/public/images/lgtmaker.png'
+import ExFFTImage from '@/public/images/exfft.png'
+import ShotrizeImage from '@/public/images/shotrize.png'
+import AmazonUrlConverterImage from '@/public/images/amazon_url_converter.png'
+import BrainSlotImage from '@/public/images/brain_slot.png'
+import EpsonImage from '@/public/images/epson.jpg'
+import QiitaSearchImage from '@/public/images/qiita_search.png'
 
 export type Props = {
   title?: string
